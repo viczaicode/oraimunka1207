@@ -82,6 +82,33 @@ div#ar {
     gap: 100px;
 }
 
+.kocsiar {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 20px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 120px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 1000;
+    text-align: center;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: transparent;
+    height: 48px;
+}
+
+.kocsiar:hover{
+    color: #fff;
+    background-color: #616467;
+}
+
 /* TABLET NÉZET - RESZPONZIVITÁS KIALAKÍTÁSA */
 @media only screen and (max-width: 960px) { /* töréspont */
     body, main {
