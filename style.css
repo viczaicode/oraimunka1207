@@ -44,6 +44,11 @@ aside {
     background-color: white;
 }
 
+.aru {
+    display: grid;
+    grid-template-rows: 40px auto auto 60px
+}
+
 img {
     width: 200px;
 }
